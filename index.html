@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+  </head>
+  <body>
+    <!--tabel start-->
+    <div class="tabel">
+      <!--left start-->
+      <div class="left">
+        <ul>
+          <li class="first">
+            <a href="#">
+              <span class="first-1 red">01</span>
+              <span class="first-2">SignIn</span>
+            </a>
+          </li>
+          <li class="second">
+            <a href="#">
+              <span class="second-1">02</span>
+              <span class="second-2">SignUp</span>
+            </a>
+          </li>
+          <li class="third">
+            <a href="#">
+              <span class="third-1">03</span>
+              <span class="third-2">Forget Password</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--left end-->
+      <!--right start-->
+      <!--Forgot Password-->
+      <div class="Forgot-Password">
+        <div class="forgot-header">
+          <h2>Forget Password</h2>
+          <p>
+            Please&nbsp;enter&nbsp;your&nbsp;UserName&nbsp;to&nbsp;send&nbsp;you&nbsp;a&nbsp;new
+            password .
+          </p>
+        </div>
+        <div class="user">
+          <form action="index.html" method="post" enctype="multipart/form-data">
+            <fieldset>
+              <legend>UserName</legend>
+              <input type="text" id="name" name="Name" placeholder="UserName" data-val-required="Please fill this field"/>
+            </fieldset>
+          </form>
+          <button>
+            <a href="#">
+              <span>Forgot Password </span>
+              <svg
+                style="color: white"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-arrow-right-short"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  fill="white"
+                ></path>
+              </svg>
+            </a>
+          </button>
+        </div>
+      </div>
+      <!--Forgot Password end-->
+      <!--signup-right-->
+      <div class="signup-right">
+        <div class="signup-header">
+          <h2>SignUp</h2>
+          <p>
+            Please&nbsp;enter&nbsp;your&nbsp;information&nbsp;to&nbsp;register&nbsp;on&nbsp;the&nbsp;site.
+          </p>
+        </div>
+        <div class="user">
+          <form action="index.html" method="post" enctype="multipart/form-data">
+            <fieldset>
+              <legend>First Name</legend>
+              <input
+                type="text"
+                id="name"
+                name="Name"
+                placeholder="First Name"
+                data-val-required="Please fill this field"
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Last Name</legend>
+              <input
+                type="text"
+                id="Last Name"
+                name="Last Name"
+                placeholder="Last Name"
+                data-val-required="Please fill this field"
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Your Email</legend>
+              <input type="email" id="email" name="email" placeholder="Email" data-val-required="Please fill this field"/>
+            </fieldset>
+            <fieldset>
+              <legend>Your User Uame</legend>
+              <input
+                type="text"
+                id="User Uame"
+                name="User Uame"
+                placeholder="User Uame"
+                data-val-required="Please fill this field"
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Password</legend>
+              <input
+                type="password"
+                id="Password"
+                name="Password"
+                placeholder="Password"
+                data-val-required="Please fill this field"
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Confirm Password</legend>
+              <input
+                type="Confirm Password"
+                id="Confirm Password"
+                name="Confirm Password"
+                placeholder="Confirm Password"
+                data-val-required="Please fill this field"
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Birth Date</legend>
+              <input
+                type="date"
+                id="Birth Date"
+                name="Birth Date"
+                placeholder="mm/dd/yyy"
+                data-val-required="Please fill this field"
+              />
+            </fieldset>
+          </form>
+          <button>
+            <span>SignIn </span>
+            <svg
+              style="color: white"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-arrow-right-short"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                fill="white"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <!---signup-right end-->
+      </div>
+      <div class="right">
+        <!--header right-->
+        <div class="header">
+          <h2>SignIn</h2>
+          <p>
+            Please&nbsp;fill&nbsp;your&nbsp;username&nbsp;and&nbsp;password&nbsp;to&nbsp;enter&nbsp;the&nbsp;website.
+          </p>
+        </div>
+        <!--header right end-->
+        <!--user-->
+        <div class="user">
+          <form action="index.html" method="post" enctype="multipart/form-data">
+            <fieldset>
+              <legend>UserName</legend>
+              <input type="text" id="name" name="Name" data-val-required="Please fill this field"/>
+            </fieldset>
+            <fieldset>
+              <legend>Password</legend>
+              <input type="password" id="Password" name="Password" data-val-required="Please fill this field"/>
+            </fieldset>
+            <button>
+              <span>SignIn </span>
+              <svg
+                style="color: white"
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="currentColor"
+                class="bi bi-arrow-right-short"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  fill="white"
+                ></path>
+              </svg>
+            </button>
+          </form>
+        </div>
+        <!--user end-->
+      </div>
+      <!--right end-->
+    </div>
+
+    <script>
+      document.querySelector("li.first").addEventListener("click", function () {
+        document
+          .querySelector("li.first>a>span.first-1")
+          .classList.remove("smoke");
+        document
+          .querySelector("li.third>a>span.third-1")
+          .classList.remove("red");
+        document
+          .querySelector("li.second>a>span.second-1")
+          .classList.remove("red");
+        document
+          .querySelector("li.first>a>span.first-2")
+          .classList.remove("smoke-p");
+        document
+          .querySelector("li.second>a>span.second-2")
+          .classList.remove("white");
+        document
+          .querySelector("li.third>a>span.third-2")
+          .classList.remove("white");
+        document.querySelector("div.right").classList.remove("hidden");
+        document.querySelector("div.signup-right").classList.add("hidden");
+        document.querySelector("div.Forgot-Password").classList.add("hidden");
+
+      });
+      document
+        .querySelector("li.second")
+        .addEventListener("click", function () {
+          document
+            .querySelector("li.second>a>span.second-1")
+            .classList.add("red");
+          document
+            .querySelector("li.first>a>span.first-1")
+            .classList.add("smoke");
+          document
+            .querySelector("li.third>a>span.third-1")
+            .classList.remove("red");
+          document
+            .querySelector("li.second>a>span.second-2")
+            .classList.add("white");
+          document
+            .querySelector("li.first>a>span.first-2")
+            .classList.add("smoke-p");
+          document
+            .querySelector("li.third>a>span.third-2")
+            .classList.remove("white");
+          document.querySelector("div.signup-right").classList.remove("hidden");
+          document.querySelector("div.right").classList.add("hidden");
+          document.querySelector("div.Forgot-Password").classList.add("hidden");
+
+        });
+      document.querySelector("li.third").addEventListener("click", function () {
+        document.querySelector("li.third>a>span.third-1").classList.add("red");
+        document
+          .querySelector("li.first>a>span.first-1")
+          .classList.add("smoke");
+        document
+          .querySelector("li.second>a>span.second-1")
+          .classList.remove("red");
+        document
+          .querySelector("li.third>a>span.third-2")
+          .classList.add("white");
+        document
+          .querySelector("li.first>a>span.first-2")
+          .classList.add("smoke-p");
+        document
+          .querySelector("li.second>a>span.second-2")
+          .classList.remove("white");
+        document.querySelector("div.signup-right").classList.add("hidden");
+        document.querySelector("div.right").classList.add("hidden");
+        document
+          .querySelector("div.Forgot-Password")
+          .classList.remove("hidden");
+      });
+    </script>
+  </body>
+</html>

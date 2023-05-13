@@ -1,0 +1,31 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: unset;
+}
+
+body {
+  /* width: 100vw; */
+  /* display: flex; */
+  padding-top: 30px;
+  /* height: 100vh; */
+  background-color: #cdf7ee;
+  
+}
+@font-face {
+  font-family: "sans-bold";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "sans-semi-bold";
+  src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "sans-light";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: "sans-regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
