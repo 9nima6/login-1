@@ -164,6 +164,7 @@
     top: 306px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    display: none;
   }
   div.tabel > div.signup-right > div.signup-header {
     text-align: center;
