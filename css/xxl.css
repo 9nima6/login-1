@@ -1,5 +1,5 @@
 @media only screen and (min-width: 990px) {
-  body{
+  body {
     height: 100vh;
   }
   /* tabel start*/
@@ -13,7 +13,7 @@
     transform: translate(-50%, -50%);
     border-radius: 10px;
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-}
+  }
   /* left start*/
   div.tabel > div.left {
     width: 280px;
@@ -70,7 +70,7 @@
   /*left end */
   /*right start*/
   /*header*/
-  
+
   div.tabel > div.right {
     width: calc(820px - 280px);
     height: inherit;
@@ -84,7 +84,7 @@
     top: 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-}
+  }
   div.tabel > div.right > div.header {
     text-align: center;
     padding: 37px 30px 15px;
@@ -99,7 +99,6 @@
     font-family: "sans-bold";
   }
   div.tabel > div.right > div.header > p {
-    /* width: 360px; */
     font-size: 14px;
     font-weight: 700;
     color: #666;
@@ -126,7 +125,6 @@
     gap: 15px;
   }
   div.tabel > div.right > div.user > form > fieldset {
-    /* height: 50px; */
     border: 2px solid #e5e5e5;
     padding: 0px 20px;
     display: block;
@@ -155,7 +153,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
     gap: 10px;
+  }
+  div.tabel > div.right > div.user >form button > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /* user end*/
   /*right end*/
@@ -173,7 +182,7 @@
     top: 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-}
+  }
   div.tabel > div.signup-right > div.signup-header {
     text-align: center;
     padding: 37px 30px 15px;
@@ -188,7 +197,6 @@
     font-family: "sans-bold";
   }
   div.tabel > div.signup-right > div.signup-header > p {
-    /* width: 360px; */
     font-size: 14px;
     font-weight: 600px;
     color: #666;
@@ -221,6 +229,10 @@
     display: block;
     border-radius: 5px;
   }
+  div.tabel > div.signup-right > div.user > form >div,.empty{
+    width: 206px;
+    height: 50px;
+  }
   div.tabel > div.signup-right > div.user > form > fieldset > input {
     width: 150px;
     height: 30px;
@@ -235,7 +247,7 @@
     font-family: "sans-bold";
     color: #999;
   }
-  div.tabel > div.signup-right > div.user > button {
+  div.tabel > div.signup-right > div.user > form button {
     font-size: 18px;
     padding: 10px;
     border-radius: 5px;
@@ -248,9 +260,18 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    position: absolute;
-    bottom: 20px;
-    right: 50px;
+    cursor: pointer;
+    margin-left: 80px;
+  }
+  div.tabel > div.signup-right > div.user >form button > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /* sign-up end*/
   /*Forgot-Password start*/
@@ -267,7 +288,7 @@
     top: 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-}
+  }
   div.tabel > div.Forgot-Password > .forgot-header {
     text-align: center;
     padding: 37px 30px 15px;
@@ -289,19 +310,12 @@
     text-align: center;
     font-family: "sans-semi-bold";
   }
-  div.tabel > div.Forgot-Password > div.user {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-    gap: 20px;
-  }
   div.tabel > div.Forgot-Password > div.user > form {
     padding: 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     gap: 15px;
     flex-wrap: wrap;
   }
@@ -327,7 +341,7 @@
     font-family: "sans-bold";
     color: #999;
   }
-  div.tabel > div.Forgot-Password > div.user > button {
+  div.tabel > div.Forgot-Password > div.user >form button {
     font-size: 18px;
     padding: 10px;
     border-radius: 5px;
@@ -336,15 +350,10 @@
     color: white;
     font-family: "sans-bold";
     font-weight: bolder;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    bottom: 70px;
-    right: 50px;
+    cursor: pointer;
+    margin-right: 10px;
   }
-  div.tabel > div.Forgot-Password > div.user > button > a {
+  div.tabel > div.Forgot-Password > div.user >form button > a {
     width: 100%;
     height: 100%;
     display: block;
@@ -373,10 +382,10 @@
 .smoke-p {
   color: #ccc !important;
 }
-.hidden{
+.hidden {
   display: none !important;
 }
-.show{
+.show {
   display: block !important;
 }
 

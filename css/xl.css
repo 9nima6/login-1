@@ -147,7 +147,18 @@
     gap: 10px;
     position: absolute;
     bottom: 30px;
+    cursor: pointer;
     right: 90px;
+  }
+  div.tabel > div.right > div.user >form button > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /* user end*/
   /*right end*/
@@ -166,6 +177,7 @@
     top: 270px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    display: none;
   }
   div.tabel > div.signup-right > div.signup-header {
     text-align: center;
@@ -213,6 +225,10 @@
     display: block;
     border-radius: 5px;
   }
+  div.tabel > div.signup-right > div.user > form >div,.empty{
+    width: 291px;
+    height: 50px;
+  }
   div.tabel > div.signup-right > div.user > form > fieldset > input {
     height: 30px;
     display: block;
@@ -226,7 +242,7 @@
     font-family: "sans-bold";
     color: #999;
   }
-  div.tabel > div.signup-right > div.user > button {
+  div.tabel > div.signup-right > div.user > form button {
     font-size: 18px;
     padding: 10px;
     border-radius: 5px;
@@ -241,7 +257,18 @@
     gap: 10px;
     position: absolute;
     bottom: 20px;
+    cursor: pointer;
     right: 50px;
+  }
+  div.tabel > div.signup-right > div.user >form button > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /*signup end*/
   /*Forgot-Password start*/
@@ -282,11 +309,6 @@
   }
   div.tabel > div.Forgot-Password > div.user {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-    gap: 20px;
   }
   div.tabel > div.Forgot-Password > div.user > form {
     width: 100%;
@@ -294,7 +316,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     gap: 15px;
     flex-wrap: wrap;
   }
@@ -320,7 +342,7 @@
     font-family: "sans-bold";
     color: #999;
   }
-  div.tabel > div.Forgot-Password > div.user > button {
+  div.tabel > div.Forgot-Password > div.user >form button {
     font-size: 18px;
     padding: 10px;
     border-radius: 5px;
@@ -333,11 +355,10 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    position: absolute;
-    bottom: 50px;
-    right: 80px;
+    cursor: pointer;
+    margin-left: 330px;
   }
-  div.tabel > div.Forgot-Password > div.user > button > a {
+  div.tabel > div.Forgot-Password > div.user >form button > a {
     width: 100%;
     height: 100%;
     display: block;

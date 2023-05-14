@@ -146,7 +146,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     gap: 10px;
+  }
+  div.tabel > div.right > div.user > form button > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /*user end*/
   /*right end*/
@@ -226,7 +237,14 @@
     font-family: "sans-bold";
     color: #999;
   }
-  div.tabel > div.signup-right > div.user > button {
+  div.tabel
+    > div.signup-right
+    > div.user
+    > form
+    > fieldset:nth-last-of-type(1) {
+    margin-left: 20px;
+  }
+  div.tabel > div.signup-right > div.user > form button {
     width: 90%;
     font-size: 18px;
     padding: 10px;
@@ -237,9 +255,21 @@
     font-family: "sans-bold";
     font-weight: bolder;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  div.tabel > div.signup-right > div.user > form button > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /*signup-right end*/
   /*Forgot-Password start*/
@@ -317,7 +347,7 @@
     font-family: "sans-bold";
     color: #999;
   }
-  div.tabel > div.Forgot-Password > div.user > button {
+  div.tabel > div.Forgot-Password > div.user > form button {
     width: 90%;
     font-size: 18px;
     padding: 10px;
@@ -332,8 +362,9 @@
     align-items: center;
     gap: 10px;
     bottom: 10px;
+    cursor: pointer;
   }
-  div.tabel > div.Forgot-Password > div.user > button > a {
+  div.tabel > div.Forgot-Password > div.user > form button > a {
     width: 100%;
     height: 100%;
     display: block;
